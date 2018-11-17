@@ -3,6 +3,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 [demo](http://map.jobsboris.tmweb.ru/)
 
 ## Available Scripts
+Before run install dependencies
+### `npm i`
 
 In the project directory, you can run:
 

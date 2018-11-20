@@ -136,7 +136,7 @@ class App extends Component {
           <div className="col-md-4">
             <form onSubmit={this.handleSubmit}>
               <input 
-                placeholder="Новая точка маршрута"
+                placeholder="Введите адрес"
                 ref={node => (this.inputNode = node)}
                 type="text"
                 className="form-control"/> 

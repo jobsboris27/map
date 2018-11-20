@@ -1,4 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description(RU)
+
+Отображение введеных данных в виде маркера на карте, и построение между точками прямых линий.<br/>
+Элементы списка можно передвигать drag-drop, маркер на карте можно двигать по карте, адрес будет меняться в списке точек.
+
 ## Link demo
 [demo](http://map.jobsboris.tmweb.ru/)
 

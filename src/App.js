@@ -59,7 +59,12 @@ class App extends Component {
 
   handleSubmit = event => {
     event.preventDefault();
-    if (!this.inputNode.value || this.inputNode.value.length < 5) return;
+    
+    if (!this.inputNode.value) { 
+      alert("Empty input")
+      return;
+    }
+    
     const { routes } = this.state;
     
     this.getCoordsByName(this.inputNode.value).then(value => {
